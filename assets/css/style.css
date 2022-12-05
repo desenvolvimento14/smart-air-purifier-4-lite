@@ -1,0 +1,248 @@
+*{box-sizing: border-box; margin: 0; padding: 0;}
+
+:root{
+    --background-notas: #ecedf1;
+    --background-yellon: #f9d230;
+    --tittle-yellow: #ffd300;
+    --title: #000000;
+    --title-white: #ffffff;
+    --tittle-gray: #5D5D5D;
+    --sub-tittle-gray: #818181;
+    --sub-tittle-blue: #5CA3DB;
+    --tittle-dark-red: #ff4e3b;
+    --tittle-green: #9BB15D;
+    --tittle-blue: #33BCFF;
+    --text-white: #fff;
+    --text-blue: #266ccd;
+    --paragraph:#000;
+    --paragraph-white: #fff;
+    --paragraph-01: #0000;
+    --paragraph-gray: #5D5D5D;
+    --paragraph-blue: #4C92FF;
+    --paragraph-yellow: #ffd300;
+    --blue-gradient: linear-gradient(0deg,#959fff,#3f94ff);
+    --green-gradient: linear-gradient(0deg,#81d8b0,#02bfae);
+    --red-gradient: linear-gradient(0deg,#ff7260,#ff210e);
+}
+
+@font-face {font-family: CamphorProForXiaoMi-Regular; src: url(../css/fonts/CamphorProForXiaoMi-Regular.woff) format("woff")}
+@font-face {font-family: CamphorProForXiaoMi-Bold; font-weight: 700; src: url(../css/fonts/CamphorProForXiaoMi-Bold.woff) format("woff")}
+@font-face {font-family: CamphorProForXiaoMi-Thin; src: url(./fonts/CamphorProForXiaoMi-Thin.woff) format("woff")}
+@font-face {font-family: CamphorProForXiaoMi-Heavy; font-weight: 900; src: url(./fonts/CamphorProForXiaoMi-Heavy.woff) format("woff")}
+@font-face {font-family: CamphorProForXiaoMi-Medium; src: url(./fonts/CamphorProForXiaoMi-Medium.woff) format("woff")}
+
+.f-heavy {font-family: CamphorProForXiaoMi-Heavy, sans-serif; font-weight: 900}
+.f-regular {font-family: CamphorProForXiaoMi-Regular, sans-serif}
+.f-light {font-family: CamphorProForXiaoMi-Light, sans-serif}
+.f-bold {font-family: CamphorProForXiaoMi-Bold, sans-serif; font-weight: 700}
+.f-medium {font-family: CamphorProForXiaoMi-Medium, sans-serif}
+.f-thin {font-family: CamphorProForXiaoMi-Thin, sans-serif}
+
+@media screen and (min-width:1024px) {main{display: none;}}
+
+@media screen and (min-width:760px) and (max-width:1023px) {main{display: none;}}
+
+@media screen  and (max-width:768px) {
+
+    a:link {text-decoration: none;} 
+
+    .root-xiaomi-smart-air-purifier-4-lite {overflow: hidden; width: 100%;}
+
+    .main-title_xiaomi-smart-air-purifier-4-lite-01 {font-size: 1.8rem; color: var(--title); text-align: center; padding: 2rem 1rem 1rem 1rem;}
+    .main-title_xiaomi-smart-air-purifier-4-lite-02 {font-size: 1.5rem; color: var(--title); text-align: center; padding: 0rem 1rem 0.5rem 1rem;}
+    .main-title_xiaomi-smart-air-purifier-4-lite-02-01 {font-size: 1rem; color: var(--title); text-align: center; padding: 0rem 1rem 0rem 1rem;}
+    .main-title_xiaomi-smart-air-purifier-4-lite-03 {font-size: 1.2rem; color: var(--title); text-align: center; padding: 1rem 1rem 0.4rem 1rem;}
+    .main-title_xiaomi-smart-air-purifier-4-lite-03-01 {font-size: 1.2rem; color: var(--title); text-align: center; padding: 0rem 1rem 0.5rem 1rem;}
+    .main-title_xiaomi-smart-air-purifier-4-lite-03-02 {font-size: 1rem; color: var(--title); text-align: center; padding: 0.5rem;}
+
+    .main-title_xiaomi-smart-air-purifier-4-lite-04 {font-size: 1.2rem; color: var(--tittle-green); text-align: center; padding: 1rem 1rem 0.5rem 1rem;}
+    .main-title_xiaomi-smart-air-purifier-4-lite-05 {font-size: 1.2rem; color: var(--tittle-green); text-align: left; padding: 1rem 1rem 0.5rem 1rem;}
+    .main-title_xiaomi-smart-air-purifier-4-lite-06 {font-size: 1.2rem; color: var(--title-white); text-align: center; padding: 1rem 1rem 0.5rem 1rem;}
+    .main-title_xiaomi-smart-air-purifier-4-lite-06-01 {font-size: 1.2rem; color: var(--title-white); text-align: center; padding: 0rem 1rem 0.5rem 1rem;}
+    
+    .sub-title_xiaomi-smart-air-purifier-4-lite-01 {font-size: 1rem; color: var(--title); line-height: 1.5rem; text-align: center; padding: 1rem;}
+    .sub-title_xiaomi-smart-air-purifier-4-lite-01-blue {font-size: 1rem; color: var(--sub-tittle-blue); line-height: 1.4rem; text-align: center; padding: 0.4rem;}
+    .sub-title_xiaomi-smart-air-purifier-4-lite-01-01 {font-size: 1rem; color: var(--title); line-height: 1.4rem; text-align: center; padding: 0.5rem 1rem 0rem 1rem;}
+    .sub-title_xiaomi-smart-air-purifier-4-lite-01-02 {font-size: 1rem; color: var(--title); line-height: 1.5rem; text-align: left; padding: 1rem 2rem 1rem 2rem;}
+    .sub-title_xiaomi-smart-air-purifier-4-lite-01-03 {font-size: 1rem; color: var(--title-white); line-height: 1.1rem; text-align: center; padding: 0rem 1rem 0rem 1rem;}
+
+    .sub-title_xiaomi-smart-air-purifier-4-lite-02 {font-size: 1rem; color: var(--title); text-align: center; padding: 0.5rem;}
+    .sub-title_xiaomi-smart-air-purifier-4-lite-03 {font-size: 1rem; color: var(--title-white); line-height: 1.5rem; text-align: center; padding: 1rem;}
+   
+    .sub-title_xiaomi-smart-air-purifier-4-lite-04 {font-size: 1rem; color: var(--title-white); text-align: left; margin: 2rem 4rem 1rem 3rem;}
+    .sub-title_xiaomi-smart-air-purifier-4-lite-05 {font-size: 1rem; color: var(--title-white); text-align: left; margin: 0rem 4rem 0rem 3rem;}
+
+    .sub-title_xiaomi-smart-air-purifier-4-lite-06 {font-size: 1rem; color: var(--title); text-align: center; padding-top: 0.5rem;}
+
+    .sub-title_xiaomi-smart-air-purifier-4-lite-07 {font-size: 1rem; color: var(--title); text-align: center; padding: 0rem 1rem 0rem 1rem; max-width: 10rem;}
+
+    .sub-title_xiaomi-smart-air-purifier-4-lite-08 {font-size: 1rem; color: var(--title); text-align: center; padding: 1rem;}
+
+    .sub-title_xiaomi-smart-air-purifier-4-lite-grid-01 {font-size: 1rem; color: var(--title); text-align: center; padding: 0.5rem;}
+
+
+    .title_xiaomi-smart-air-purifier-4-lite-01 {font-size: 2rem; color: var(--title); text-align: center; margin: 1rem 1rem 0rem 1rem;}
+    .sub-title_xiaomi-smart-air-purifier-4-lite-02-01 {font-size: 1rem; color: var(--title); line-height: 1.5rem; text-align: center; margin: 1rem 1rem 0rem 1rem;}
+    .text_xiaomi-smart-air-purifier-4-lite-01 {font-size: 1rem; color: var(--tittle-gray); line-height: 1.5rem; text-align: center; margin: 1rem 1rem 0rem 1rem;}
+
+    .notes_xiaomi-smart-air-purifier-4-lite {font-size: 0.8rem; line-height: 1.6rem; color: var(--tittle-gray); text-align: left; padding: 0rem 1rem 1rem 1rem;} 
+    .notes_xiaomi-smart-air-purifier-4-lite-01 {font-size: 0.8rem; color: var(--tittle-gray); text-align: center; padding: 0.5rem 2rem 1rem 13rem;} 
+
+    /*==================================================== GRID ========================================================*/
+
+    .grid_text-01 {
+        display: flex;
+    }
+
+    .grid-icons {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+    }
+
+    .grid-icons-01 {
+        display: grid;
+        justify-items: center;
+        justify-content: center;
+        min-width: 5rem;
+        max-width: 6rem;
+    }
+
+    .grid-icons-02 {
+        display: grid;
+        justify-items: center;
+        justify-content: center;
+        min-width: 4rem;
+        max-width: 6rem;
+    }
+
+    .img-center {
+        padding: 1rem;
+    }
+    
+    .grid-column-text {
+        display: grid;
+        justify-items: center;
+        grid-template-columns: 1fr 1fr;
+        gap: 0.5rem;
+    }
+
+    .grid-column-text-01 {
+        display: grid;
+        max-width: 12rem;
+        background-color: #F4F6FA;
+        border-radius: 1rem 1rem 1rem 1rem;
+    }
+
+    .grid-column-text-02 {
+        display: grid;
+        max-width: 12rem;
+        background-color: #ECF5FE;
+        border-radius: 1rem 1rem 1rem 1rem;
+    }
+
+    .grid-height {
+        height: 16rem;
+    }
+
+    /*======================================================= LAYOUT =======================================================*/
+
+    .bg_01 {
+        height: 54rem;
+        background-image: url(../media/Overview-01.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 3rem 1rem 1rem 1rem;
+    }
+
+    .bg_text-01 {
+        padding: 1rem;
+    }
+
+    .border-bg_01 {
+        border: 1px solid #5CA3DB;
+        margin: 0rem 3rem 0rem 3rem;
+        max-width: 23rem;
+    }
+
+    .bg_02 {
+        height: 54rem;
+        background-image: url(../media/Overview-02.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 3rem 1rem 1rem 1rem;
+    }
+
+    .bg_display-center {
+        display: grid;
+        justify-items: center;
+    }
+
+    .bg_line {
+        width: 4rem; 
+        height: 0.3rem; 
+        margin: 2rem;
+        background: #577bb9;
+    }
+
+    .bg_tittle-gray {
+        background-color: #D8DADC;
+        border-radius: 1rem 1rem 0 0;
+        max-width: 12rem;
+        height: 6rem;
+        display: grid;
+        align-content: center;
+    }
+    
+    .bg_tittle-gray-01 {
+        background-color: #E9EBEE;
+        max-width: 12rem;
+        display: flex;
+        height: 3rem;
+        align-content: center;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bg_tittle-blue {
+        background-color: #B3CEF6;
+        border-radius: 1rem 1rem 0 0;
+        max-width: 12rem;
+        height: 6rem;
+        display: grid;
+        align-content: center;
+    }
+    
+    .bg_tittle-blue-01 {
+        background-color: #DDEAFD;
+        max-width: 12rem;
+        display: flex;
+        height: 3rem;
+        align-content: center;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bg_03 {
+        height: 54rem;
+        background-image: url(../media/Overview-07.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 3rem 1rem 1rem 1rem;
+    }
+
+    .bg_04 {
+        height: 54rem;
+        background-image: url(../media/Overview-08.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 3rem 1rem 1rem 1rem;
+    }
+
+}
