@@ -125,6 +125,7 @@
         justify-items: center;
         grid-template-columns: 1fr 1fr;
         gap: 0.5rem;
+        overflow: scroll;
     }
 
     .grid-column-text-01 {
